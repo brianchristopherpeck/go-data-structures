@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-// time complexity n ^ 2
+// time complexity O(n ^ 2)
 func bubbleSort(a []int, n int) {
 	for k :=1; k < n-1; k++ {
 		// if flag == 0, array is sorted because no swaps happened
