@@ -32,3 +32,5 @@ func main() {
 	selectionSort(a, len(a))
 	fmt.Println(a)
 }
+
+// time complexity O(n^2)
