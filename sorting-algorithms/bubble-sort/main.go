@@ -15,7 +15,7 @@ func bubbleSort(a []int, n int) {
 		// 1 cell further to the left every pass
 		for i := 0; i <= n-k-1; i++ {
 			if a[i] > a[i+1] {
-				swap(a, i, flag)
+				swap(a, i)
 			}
 			flag = 1
 		}
@@ -27,7 +27,7 @@ func bubbleSort(a []int, n int) {
 	}
 }
 
-func swap(a []int, i int, flag int) {
+func swap(a []int, i int) {
 	// replace next with current and current with next
 	next := a[i]
 	current := a[i+1]
