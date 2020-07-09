@@ -58,3 +58,5 @@ func main() {
 	mergeSort(a, len(a))
 	fmt.Println("Sorted: ", a)
 }
+
+// time complexity O(n log n)
